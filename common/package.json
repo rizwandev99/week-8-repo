@@ -1,8 +1,8 @@
 {
   "name": "@rizwandev99/monorepo-test1",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
   "main": "./dist/index.js",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

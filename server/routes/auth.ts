@@ -4,7 +4,7 @@ import { authenticateJwt, SECRET } from "../middleware/";
 import { User } from "../db";
 const router = express.Router();
 import { z } from "zod";
-
+import { signupInput } from "@rizwandev99/monorepo-test1";
 // const signupInput = z.object({
 //   username: z.string(),
 //   password: z.string(),
@@ -18,7 +18,7 @@ router.post("/signup", async (req, res) => {
 
   if (!parsedResponse.success) {
     return res.status(411).json({
-      msg: "Error while parsing...",
+      msg: "Error while ps...",
     });
   }
 
