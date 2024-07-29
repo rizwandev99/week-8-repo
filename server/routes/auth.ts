@@ -5,10 +5,12 @@ import { User } from "../db";
 const router = express.Router();
 import { z } from "zod";
 
-const signupInput = z.object({
-  username: z.string(),
-  password: z.string(),
-});
+// const signupInput = z.object({
+//   username: z.string(),
+//   password: z.string(),
+// });
+
+// type SignupParam = z.infer<typeof signupInput>;
 
 router.post("/signup", async (req, res) => {
   const { username, password } = req.body;
